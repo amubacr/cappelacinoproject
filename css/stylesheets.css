@@ -45,9 +45,23 @@ table {
 	border-spacing: 0;
 }
 
+/* Mengimport font Roboto dan Poppins dari assets/fonts */
+@font-face {
+    font-family: 'Roboto';
+    src: url('assets/fonts/Roboto/roboto-regular-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'Poppins';
+	src: url('assets/fonts/Poppins/poppins-regular-webfont.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
 
 /* Letakan sintaks kodingan di bawah komentar ini! */
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto&display=swap'); */
+
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Poppins', sans-serif;
