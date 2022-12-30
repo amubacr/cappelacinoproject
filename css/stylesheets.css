@@ -120,7 +120,48 @@ header {
 
 .land-page {
 	padding: 220px 0 310px 0;
-	background-image: url();
-	background-size: cover;
+	background-image: url(/assets/img/9.Cappelacino.svg);
+	/* background-size: cover; */
 }
 
+.land-page h1 {
+	color: #cfc7c7;
+	font-size: 24px;
+	font-weight: bold;
+	margin: 0 0 10px 50px;
+}
+
+.land-page p {
+	color: #cfc7c7;
+	font-size: 20px;
+	margin: 0 0 10px 50px;
+}
+
+.land-btn {
+	margin: 30px 0 0 50px;
+}
+
+.btn-secondary {
+	font-size: 15px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	border: 2px solid rgba(124, 153, 180, 1);
+	border-radius: 10px;
+	color: rgba(124, 153, 180, 1);
+	padding: 10px 20px;
+	position: relative;
+	transition: all 0.5s;
+}
+
+.btn-secondary:hover {
+	color: #fff;
+	box-shadow: 0px 0px 50px rgba(94, 121, 146, 0.4);
+	box-shadow: 0px 4px 0px rgba(94, 121, 146, 1);
+	border: 0;
+	background-color: #8EB8E5;
+}
+
+.btn-secondary:active {
+	top: 2px;
+	box-shadow: 0px 2px 0px rgba(94, 121, 146, 1);
+}
