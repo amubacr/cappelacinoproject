@@ -108,7 +108,12 @@ header {
 	font-weight: bold;
 	display: inline-block;
 	line-height: 85px;
-	
+	transition: all 0.5s;
+}
+
+.header-right a:hover {
+	color: #fff;
+	background-color: rgba(70, 64, 64, .2);
 }
 
 .container {
@@ -120,8 +125,9 @@ header {
 
 .land-page {
 	padding: 220px 0 310px 0;
-	background-image: url(/assets/img/9.Cappelacino.svg);
-	/* background-size: cover; */
+	background-image: url(/assets/img/9.Cappelacino.png);
+	background-size: cover;
+	background-position: 0 -110px;
 }
 
 .land-page h1 {
@@ -129,12 +135,14 @@ header {
 	font-size: 24px;
 	font-weight: bold;
 	margin: 0 0 10px 50px;
+	letter-spacing: 6px;
 }
 
 .land-page p {
 	color: #cfc7c7;
 	font-size: 20px;
 	margin: 0 0 10px 50px;
+	line-height: 28px;
 }
 
 .land-btn {
