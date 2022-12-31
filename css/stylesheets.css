@@ -247,3 +247,46 @@ header {
 .about-btn {
 	margin: 20px 0 0 50px;
 }
+
+footer{
+	background-color: #0C243A;
+	height: 312px;
+}
+
+.footer-left{
+	float: left;
+	height: 236px;
+	width: 513px;
+	padding-top: 10px;
+}
+
+.footer-left p {
+	padding-top: 5px;
+	text-align: center;
+	font-size: 22px;
+	color: #EBE4E4;
+}
+
+.footer-right{
+	width: 324px;
+	height: 109px;
+	float: right;
+	padding-top: 100px;
+}
+
+.footer-right h2{
+	color: #FFFFFF;
+	text-align: center;
+	padding-bottom: 10px;
+	font-size: 18px;
+}
+
+.footer-right p {
+	font-size: 18px;
+	color: #EBE4E4;
+	text-align: center;
+}
+
+.txt-footer{
+	background-color: #0C243A;
+}
