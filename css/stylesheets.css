@@ -1,292 +1,379 @@
 /* CSS Reset, jangan mengubah apapun yang ada di CSS Reset ini! */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Mengimport font Roboto dan Poppins dari assets/fonts */
 @font-face {
-    font-family: 'Roboto';
-    src: url('assets/fonts/Roboto/roboto-regular-webfont.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "Roboto";
+  src: url("../assets/fonts/Roboto/roboto-regular-webfont.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-	font-family: 'Poppins';
-	src: url('assets/fonts/Poppins/poppins-regular-webfont.woff2') format('woff2');
-	font-weight: normal;
-	font-style: normal;
+  font-family: "Poppins";
+  src: url("../assets/fonts/Poppins/poppins-regular-webfont.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
 }
 
 /* Letakan sintaks kodingan di bawah komentar ini! */
 
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Poppins', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
 }
 
 p {
-    font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 a {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-	background-color: rgba(226, 221, 221, 1);
+  background-color: rgba(226, 221, 221, 1);
 }
 
 header {
-	width: 100%;
-	height: 90px;
-	background-color: rgba(255, 255, 255, 0.1);
-	backdrop-filter: blur(25px);
-	position: fixed;
-	z-index: 10;
+  width: 100%;
+  height: 90px;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(25px);
+  position: fixed;
+  z-index: 10;
 }
 
 .header-left {
-	float: left;
+  float: left;
 }
 
 .logo {
-	width: 150px;
-	margin: 10px 0;
+  width: 150px;
+  margin: 10px 0;
 }
 
 .header-right {
-	float: right;
-	/* margin: 0 -30px; */
+  float: right;
+  /* margin: 0 -30px; */
 }
 
 .header-right a {
-	color: #cfc7c7;
-	padding: 0 30px;
-	font-size: 24px;
-	font-weight: bold;
-	display: inline-block;
-	line-height: 85px;
-	transition: all 0.5s;
+  color: #cfc7c7;
+  padding: 0 30px;
+  font-size: 24px;
+  font-weight: bold;
+  display: inline-block;
+  line-height: 85px;
+  transition: all 0.5s;
 }
 
 .header-right a:hover {
-	color: #fff;
-	background-color: rgba(70, 64, 64, .2);
+  color: #fff;
+  background-color: rgba(70, 64, 64, 0.2);
 }
 
 .container {
-	max-width: 1440px;
-	width: 100%;
-	padding: 0 50px;
-	margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
+  padding: 0 50px;
+  margin: 0 auto;
 }
 
 .land-page {
-	padding: 220px 0 310px 0;
-	background-image: url(/assets/img/9.Cappelacino.png);
-	background-size: cover;
-	background-position: 0 -110px;
+  padding: 220px 0 310px 0;
+  background-image: url("../assets/img/9.Cappelacino.png");
+  background-size: cover;
+  background-position: 0 -110px;
 }
 
 .land-page h1 {
-	color: #cfc7c7;
-	font-size: 24px;
-	font-weight: bold;
-	margin: 0 0 10px 50px;
-	letter-spacing: 6px;
+  color: #cfc7c7;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 0 10px 50px;
+  letter-spacing: 6px;
 }
 
 .land-page p {
-	color: #cfc7c7;
-	font-size: 20px;
-	margin: 0 0 10px 50px;
-	line-height: 28px;
+  color: #cfc7c7;
+  font-size: 20px;
+  margin: 0 0 10px 50px;
+  line-height: 28px;
 }
 
 .land-btn {
-	margin: 30px 0 0 50px;
+  margin: 30px 0 0 50px;
 }
 
 .btn-secondary1 {
-	font-size: 15px;
-	font-family: 'Poppins', sans-serif;
-	font-weight: 600;
-	border: 2px solid rgba(124, 153, 180, 1);
-	border-radius: 10px;
-	color: rgba(124, 153, 180, 1);
-	padding: 10px 20px;
-	position: relative;
-	transition: all 0.5s;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  border: 2px solid rgba(124, 153, 180, 1);
+  border-radius: 10px;
+  color: rgba(124, 153, 180, 1);
+  padding: 10px 20px;
+  position: relative;
+  transition: all 0.5s;
 }
 
 .btn-secondary1:hover {
-	color: #fff;
-	box-shadow: 0px 0px 50px rgba(94, 121, 146, 0.4);
-	box-shadow: 0px 4px 0px rgba(94, 121, 146, 1);
-	border: 0;
-	background-color: #8EB8E5;
+  color: #fff;
+  box-shadow: 0px 0px 50px rgba(94, 121, 146, 0.4);
+  box-shadow: 0px 4px 0px rgba(94, 121, 146, 1);
+  border: 0;
+  background-color: #8eb8e5;
 }
 
 .btn-secondary1:active {
-	top: 2px;
-	box-shadow: 0px 2px 0px rgba(94, 121, 146, 1);
+  top: 2px;
+  box-shadow: 0px 2px 0px rgba(94, 121, 146, 1);
 }
 
 .about {
-	background-color: rgba(124, 153, 180, 1);
-	padding: 300px 0 450px 0 ;
+  background-color: rgba(124, 153, 180, 1);
+  padding: 300px 0 450px 0;
 }
 
 .about h1 {
-	font-size: 24px;
-	font-weight: bold;
-	letter-spacing: 6px;
-	color: #cfc7c7;
-	margin: 0 0 10px 50px;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 6px;
+  color: #cfc7c7;
+  margin: 0 0 10px 50px;
 }
 
 .about p {
-	color: #cfc7c7;
-	line-height: 28px;
-	margin: 0 0 10px 50px;
-	width: 35%;
+  color: #cfc7c7;
+  line-height: 28px;
+  margin: 0 0 10px 50px;
+  width: 35%;
 }
 
 .about-left {
-	float: left;
+  float: left;
 }
 
 .about-right {
-	/* float: right; */
-	position: relative;
-	bottom: 330px;
+  /* float: right; */
+  position: relative;
+  bottom: 330px;
 }
 
 .about-pic {
-	width: 25%;
-	float: right;
-	padding-right: 40px;
-	margin-left: 20px;
-	margin-bottom: -300px;
+  width: 25%;
+  float: right;
+  padding-right: 40px;
+  margin-left: 20px;
+  margin-bottom: -300px;
 
-	/*  */
+  /*  */
 }
 
 .btn-secondary2 {
-	font-size: 15px;
-	font-family: 'Poppins', sans-serif;
-	font-weight: 600;
-	color: #cfc7c7;
-	border-radius: 10px;
-	border: 2px solid #cfc7c7;
-	padding: 10px 20px;
-	position: relative;
-	transition: all 0.5s;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #cfc7c7;
+  border-radius: 10px;
+  border: 2px solid #cfc7c7;
+  padding: 10px 20px;
+  position: relative;
+  transition: all 0.5s;
 }
 
 .btn-secondary2:hover {
-	color: rgba(124, 153, 180, 1);
-	background-color: #fff;
-	border: 0;
-	box-shadow: 0px 0px 50px rgba(207, 199, 199, 1);
-	box-shadow: 0px 4px 0px rgba(207, 199, 199, .8);
+  color: rgba(124, 153, 180, 1);
+  background-color: #fff;
+  border: 0;
+  box-shadow: 0px 0px 50px rgba(207, 199, 199, 1);
+  box-shadow: 0px 4px 0px rgba(207, 199, 199, 0.8);
 }
 
 .btn-secondary2:active {
-	top: 2px;
-	box-shadow: 0px 2px 0px rgba(207, 199, 199, .8);
+  top: 2px;
+  box-shadow: 0px 2px 0px rgba(207, 199, 199, 0.8);
 }
 
 .about-btn {
-	margin: 20px 0 0 50px;
+  margin: 20px 0 0 50px;
 }
 
-footer{
-	background-color: #0C243A;
-	height: 312px;
+footer {
+  background-color: #0c243a;
+  height: 312px;
 }
 
-.footer-left{
-	float: left;
-	height: 236px;
-	width: 513px;
-	padding-top: 10px;
+.footer-left {
+  float: left;
+  height: 236px;
+  width: 513px;
+  padding-top: 10px;
 }
 
 .footer-left p {
-	padding-top: 5px;
-	text-align: center;
-	font-size: 22px;
-	color: #EBE4E4;
+  padding-top: 5px;
+  text-align: center;
+  font-size: 22px;
+  color: #ebe4e4;
 }
 
-.footer-right{
-	width: 324px;
-	height: 109px;
-	float: right;
-	padding-top: 100px;
+.footer-right {
+  width: 324px;
+  height: 109px;
+  float: right;
+  padding-top: 100px;
 }
 
-.footer-right h2{
-	color: #FFFFFF;
-	text-align: center;
-	padding-bottom: 10px;
-	font-size: 18px;
+.footer-right h2 {
+  color: #ffffff;
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 18px;
 }
 
 .footer-right p {
-	font-size: 18px;
-	color: #EBE4E4;
-	text-align: center;
+  font-size: 18px;
+  color: #ebe4e4;
+  text-align: center;
 }
 
-.txt-footer{
-	background-color: #0C243A;
+.txt-footer {
+  background-color: #0c243a;
 }
