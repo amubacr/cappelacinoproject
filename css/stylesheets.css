@@ -170,6 +170,8 @@ body {
   background-color: rgba(226, 221, 221, 1);
 }
 
+/* ! Header Section */
+
 header {
   width: 100%;
   height: 90px;
@@ -208,6 +210,7 @@ header {
   background-color: rgba(70, 64, 64, 0.2);
 }
 
+/* ! Container */
 .container {
   max-width: 1440px;
   width: 100%;
@@ -215,6 +218,7 @@ header {
   margin: 0 auto;
 }
 
+/* ! Landing Page Section */
 .land-page {
   padding: 220px 0 310px 0;
   background-image: url("../assets/img/9.Cappelacino.png");
@@ -237,6 +241,176 @@ header {
   line-height: 28px;
 }
 
+/* ! About Section */
+
+.about {
+  background-color: rgba(124, 153, 180, 1);
+  padding: 300px 0 450px 0;
+}
+
+.about h1 {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 6px;
+  color: #cfc7c7;
+  margin: 0 0 10px 50px;
+}
+
+.about p {
+  color: #cfc7c7;
+  line-height: 28px;
+  margin: 0 0 10px 50px;
+  width: 35%;
+}
+
+.about-left {
+  float: left;
+}
+
+.about-right {
+  position: relative;
+  bottom: 330px;
+}
+
+.about-pic {
+  width: 25%;
+  float: right;
+  padding-right: 40px;
+  margin-left: 20px;
+  margin-bottom: -300px;
+}
+
+/* ! Products Section */
+.products {
+  padding: 20px 0;
+}
+
+.products h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 40px;
+  color: #30323D;
+}
+
+.products h2 {
+  font-weight: bold;
+  color: #30323D;
+}
+
+.products-coffee {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.product-coffee {
+  width: 45%;
+  height: 350px;
+  padding: 10px;
+  background: linear-gradient(126.56deg, #8CBBED 29.54%, #87A8C7 77.75%);
+  border: 1px solid rgba(48, 50, 61, 0.5);
+  margin: 0 auto 20px auto;
+}
+
+.product-coffee img {
+  width: 100%;
+  height: 250px;
+  margin-bottom: 8px;
+  object-fit: cover;
+}
+
+.product-pic1 {
+  width: 100%;
+  height: 250px;
+  margin-bottom: 8px;
+  background-image: url("/assets/img/1.Espresso.jpg");
+  background-size: cover;
+  background-position: 0px -30px;
+}
+.product-pic2 {
+  width: 100%;
+  height: 250px;
+  margin-bottom: 8px;
+  background-image: url("/assets/img/9.Cappelacino.png");
+  background-size: cover;
+  background-position: 0px -50px;
+}
+
+.product-pic3 {
+  width: 100%;
+  height: 250px;
+  margin-bottom: 8px;
+  background-image: url("/assets/img/8.Cappucino.jpg");
+  background-size: cover;
+  background-position: 0px -30px;
+}
+
+.product-pic4 {
+  width: 100%;
+  height: 250px;
+  margin-bottom: 8px;
+  background-image: url("/assets/img/3.Latte.jpg");
+  background-size: cover;
+  background-position: 0px -180px;
+}
+
+
+.clear {
+  clear: both;
+}
+
+/* Testimoni Section */
+.testimonial {
+  padding: 50px 0 200px 0;
+  background: #7C99B4;
+}
+
+.testimonial h1 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 100px;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 8px;
+}
+
+.testimoni {
+  width: 50%;
+  margin: 0 auto;
+  background: #7C99B4;
+  border: 1px solid rgba(226, 221, 221, 0.5);
+  padding-top: 30px;
+  padding-bottom: 150px;
+}
+
+.cust-pics {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  background-image: url("/assets/img/main-img/Customer-Pict.png");
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.testimoni h2 {
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 4px;
+  padding-top: 10px;
+}
+
+.testimoni-content {
+  text-align: center;
+  margin: 15px 44px 15px 44px;
+  color: #fff;
+  line-height: 25px;
+}
+
+/* ! Button Section */
 .land-btn {
   margin: 30px 0 0 50px;
 }
@@ -266,86 +440,6 @@ header {
   box-shadow: 0px 2px 0px rgba(94, 121, 146, 1);
 }
 
-.products {
-  padding: 20px 0;
-}
-
-.products h1 {
-  text-align: center;
-  margin-bottom: 50px;
-  font-weight: bold;
-  font-size: 28px;
-}
-
-.products h2 {
-  font-weight: bold;
-}
-
-.products-coffee {
-  display: flex;
-  flex-wrap: wrap;
-  width: 60%;
-  margin: 0 auto;
-}
-
-.product-coffee {
-  width: 300px;
-  height: 300px;
-  padding: 10px;
-  background-color: rgba(124, 153, 180, 1);
-  margin: 0 auto 20px auto;
-}
-
-.product-coffee img {
-  width: 100%;
-  height: 180px;
-  margin-bottom: 8px;
-  object-fit: cover;
-}
-
-.clear {
-  clear: both;
-}
-
-.about {
-  background-color: rgba(124, 153, 180, 1);
-  padding: 300px 0 450px 0;
-}
-
-.about h1 {
-  font-size: 24px;
-  font-weight: bold;
-  letter-spacing: 6px;
-  color: #cfc7c7;
-  margin: 0 0 10px 50px;
-}
-
-.about p {
-  color: #cfc7c7;
-  line-height: 28px;
-  margin: 0 0 10px 50px;
-  width: 35%;
-}
-
-.about-left {
-  float: left;
-}
-
-.about-right {
-  /* float: right; */
-  position: relative;
-  bottom: 330px;
-}
-
-.about-pic {
-  width: 25%;
-  float: right;
-  padding-right: 40px;
-  margin-left: 20px;
-  margin-bottom: -300px;
-
-  /*  */
-}
 
 .btn-secondary2 {
   font-size: 15px;
@@ -376,9 +470,11 @@ header {
   margin: 20px 0 0 50px;
 }
 
+/* ! Footer Section */
+
 footer {
   background-color: #0c243a;
-  height: 312px;
+  height: 350px;
 }
 
 .footer-left {
@@ -386,13 +482,22 @@ footer {
   height: 236px;
   width: 513px;
   padding-top: 10px;
+  margin-bottom: 50px;
 }
 
 .footer-left p {
   padding-top: 5px;
   text-align: center;
-  font-size: 22px;
+  font-size: 20px;
+  line-height: 25px;
   color: #ebe4e4;
+}
+
+.copyright {
+  color: #ebe4e4;
+  position: relative;
+  top: 330px;
+  left: 20px;
 }
 
 .footer-right {
@@ -405,8 +510,9 @@ footer {
 .footer-right h2 {
   color: #ffffff;
   text-align: center;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   font-size: 18px;
+  font-weight: 600;
 }
 
 .footer-right p {
