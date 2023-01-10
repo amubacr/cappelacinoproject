@@ -221,7 +221,7 @@ header {
 /* ! Landing Page Section */
 .land-page {
   padding: 220px 0 310px 0;
-  background-image: url("../assets/img/9.Cappelacino.png");
+  background-image: url("../assets/img/9.Cappelacino.webp");
   background-size: cover;
   background-position: 0 -110px;
 }
@@ -325,7 +325,7 @@ header {
   width: 100%;
   height: 250px;
   margin-bottom: 8px;
-  background-image: url("/assets/img/1.Espresso.jpg");
+  background-image: url("/assets/img/1.Espresso.webp");
   background-size: cover;
   background-position: 0px -30px;
 }
@@ -333,7 +333,7 @@ header {
   width: 100%;
   height: 250px;
   margin-bottom: 8px;
-  background-image: url("/assets/img/9.Cappelacino.png");
+  background-image: url("/assets/img/9.Cappelacino.webp");
   background-size: cover;
   background-position: 0px -50px;
 }
@@ -342,7 +342,7 @@ header {
   width: 100%;
   height: 250px;
   margin-bottom: 8px;
-  background-image: url("/assets/img/8.Cappucino.jpg");
+  background-image: url("/assets/img/8.Cappucino.webp");
   background-size: cover;
   background-position: 0px -30px;
 }
@@ -351,7 +351,7 @@ header {
   width: 100%;
   height: 250px;
   margin-bottom: 8px;
-  background-image: url("/assets/img/3.Latte.jpg");
+  background-image: url("/assets/img/3.Latte.webp");
   background-size: cover;
   background-position: 0px -180px;
 }
@@ -389,7 +389,7 @@ header {
   width: 200px;
   height: 200px;
   border-radius: 100px;
-  background-image: url("/assets/img/main-img/Customer-Pict.png");
+  background-image: url("/assets/img/main-img/Customer-Pict.webp");
   background-size: cover;
   margin: 0 auto;
 }
