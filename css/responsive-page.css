@@ -1,0 +1,43 @@
+/* ! Responsive Page: Mobile or Smartphone */
+
+@media all and (max-width: 600px)  {
+    header {
+        width: 100%;
+        display: flex;
+    }
+
+    .header-right {
+        display: none;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        max-width: 600px;
+    }
+
+    .land-page {
+        max-width: 600px;
+        background-size: cover
+
+    }
+
+    .land-page h1 {
+        font-size: 18px;
+        margin: 0 0 10px 0;
+    }
+
+    .land-page p {
+        font-size: 15px;
+        margin: 0 0 10px 0;
+    }
+
+    
+
+
+}
+
+/* Responsive Page: Tablet */
+/* @media screen (max-width: 1000px) { */
+    
+/* } */
